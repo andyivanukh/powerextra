@@ -1,0 +1,47 @@
+
+
+@font-face {
+    font-family: "Panton Bold";
+    src: url("../fonts/Panton Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Panton Bold Italic";
+	src: url("../fonts/Panton Bold Italic.otf") format("opentype");
+}
+@font-face {
+    font-family: "Panton Black Italic";
+    src: url("../fonts/Panton Black Italic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Panton Regular Italic";
+	src: url("../fonts/Panton Regular Italic.otf") format("opentype");
+}
+@font-face {
+    font-family: "Panton SemiBold";
+    src: url("../fonts/Panton SemiBold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Panton-BlackCaps";
+	src: url("../fonts/Panton-BlackCaps.otf") format("opentype");
+}
+@font-face {
+    font-family: "Panton-BlackitalicCaps";
+    src: url("../fonts/Panton-BlackitalicCaps.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Panton";
+	src: url("../fonts/Panton.otf") format("opentype");
+}
+@font-face {
+    font-family: "Panton-LightCaps";
+    src: url("../fonts/Panton-LightCaps.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Panton-LightitalicCaps";
+	src: url("../fonts/Panton-LightitalicCaps.otf") format("opentype");
+}

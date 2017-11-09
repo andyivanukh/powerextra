@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Power UP</title>
+	<meta name="viewport" content="width= device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+ 	<link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<span class="header_txt1">Formula innovativa del cocktail di proteine </span>
+			<span class="header_txt2"><span class="blue_color">Power-Up</span> <span class="orange_color">Extra</span> la nuova strada verso i muscoli potenti e determinati </span>
+			<div class="header_product_wrap">
+				<img  class="header__img" src="img/header_product.png" alt="powerup">
+				<div class="header_price_wrap">
+					<div class="header_price_new al-cost">39€</div>
+					<div class="header_price_old al-cost-promo">78€</div>
+				</div>
+			</div>
+			<div class="order_fast">ORDINA AD UN PREZZO SPECIALE</div>
+			<div class="counter_wrap clearfix">
+				<div class="counter left">
+					 <div class="counter__section counter__section_first">0</div><span class="js-countdown"><span class="js-count-digit">2</span><span class="js-count-digit">0</span></span> 
+				</div>				<div class="counter_txt right">* ORDINA AD UN <br> <span class="txt_pad">  PREZZO SPECIALE</span></div>
+			</div>
+			<div class="form__block main_form">
+				<div class="form_top-panel">
+					<div class="full_cost_wrap">
+						<span class="full_cost"> Prezzo normale<br> <span class="full_price al-cost-promo">78€</span></span>
+					</div>
+					<div class="off_cost_wrap">
+						<span class="off_cost"> Prezzo con lo sconto<br> <span class="off_price al-cost">39€</span></span>
+					</div>
+				</div>
+				<form action="/land/order" method="POST" class="main__form al-form">
+					<select name="country" class="al-country" style="display: none;"></select>
+					<div style="position: relative; margin:15px 0;"  class="input-wrapper" >
+						<input type="text" name="name" id="name" placeholder="Inserite il vostro nome">
+						<label for="name" class="input_label"></label>
+					</div>
+					<div  class="input-wrapper">
+						<input type="phone" name="phone" id="phone" placeholder="Inserite il numero di telefono">
+						<label for="phone"></label>
+					</div>
+					<input class="btn" type="submit" value="ORDINA CON LO SCONTO">
+					<div class="secure">
+						<div class="secure__txt_wrap">
+							<span class="secure__txt">Le vostre informazioni non verranno trasmesse a terzi</span>
+						</div>
+						
+					</div>
+					<div class="secure_images clearfix">
+						<img  class="left" src="img/norton.png" alt="powerup">
+						<img  class="right" src="img/mcafee.png" alt="powerup">
+					</div>
+				</form>
+			</div>
+			
+		</header>
+		<section class="time">
+			<span class="time_txt1">Power-Up Extra </span>
+			<span class="time_txt2">funziona davvero</span>
+			<div class="time__img_block">
+				<img  class="time__img" src="img/time.png" alt="powerup">
+			</div>
+			<div class="time__descr">
+				<b><span class="blue_color">Power-Up Extra</span></b> è molto <span class="black_color">più efficace della proteina convenzionale</span>, e tutto <span class="black_color">questo grazie alla formula innovativa:</span> – il contenuto ottimale di nutrienti, aminoacidi, vitamine e minerali.
+				
+
+
+			</div>
+		</section>
+		<section class="powder">
+			<span class="powder__txt">1 porzione=110 kcal:</span>
+			<div class="powder__info">
+				<div class="powder__item">
+					<span class="powder__title">nutrienti</span>
+					<ul class="powder__list">
+						<li class="powder__list_item">proteine - 21 gr</li>
+						<li class="powder__list_item">grassi - 0,63 gr</li>
+						<li class="powder__list_item">carboidrati - 1,6 gr</li>
+					</ul>
+				</div>
+				<div class="powder__item">
+					<span class="powder__title">aminoacidi </span>
+					<ul class="powder__list">
+						<li class="powder__list_item">AAKG – 1 gr</li>
+						<li class="powder__list_item">L-Leucina - 0.5 gr</li>
+						<li class="powder__list_item">L-isoleucina 0,25 grammi</li>
+						<li class="powder__list_item">L-Valine: 0,25 grammi</li>
+					</ul>
+				</div>
+				<div class="powder__item">
+					<span class="powder__title">vitamine e minerali</span>
+					<ul class="powder__list">
+						<li class="powder__list_item">potassio - 100 mg</li>
+						<li class="powder__list_item">calcio 72 mg</li>
+						<li class="powder__list_item">magnesio - 30 mg</li>
+						<li class="powder__list_item">zinco - 6 mg</li>
+						<li class="powder__list_item">Vitamina A - 320 mg</li>
+						<li class="powder__list_item">vitamine del gruppo B - 1.06 mg</li>
+						<li class="powder__list_item">Vitamina C - 16 mg</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="order">
+			<div class="counter_wrap clearfix">
+				<div class="counter left">
+					 <div class="counter__section counter__section_first">0</div><span class="js-countdown"><span class="js-count-digit">2</span><span class="js-count-digit">0</span></span> 
+				</div>
+				<div class="counter_txt right black_color">* Totale pacchetti   <br>  
+					<span class="txt2_pad">promozionali</span></div>
+			</div>
+			<div class="order__sticker_wrap">
+				<img class="order__img" src="img/price_sticker.png" alt="powerup">
+				<div class="header_price_wrap order_price_sticker">
+					<div class="header_price_new">39€</div>
+					<div class="header_price_old">78€</div>
+				</div>
+			</div>
+			<button class="btn order_btn">NON PERDERE IL MOMENTO!</button>
+			
+		</section>
+		<section class="photo_slider">
+			<span class="photo_slider__txt">Cambia “IO VOGLIO” per “IO POSSO”  <br>
+ 				<span class="blue_color">con Power-Up</span> <span class="orange_color">Extra</span>
+ 			</span>
+ 			<div class="slider">
+ 				<div class="slider__item">
+ 					<div class="slider__title">Vuoi essere   <br> forte?</div>
+ 					<img class="slider__img" src="img/man_1.png" alt="powerup">
+ 					<div class="slider__slogan">Diventalo!</div>
+ 				</div>
+ 				<div class="slider__item">
+ 					<div class="slider__title">Vuoi essere   <br> sicuro in se?</div>
+ 					<img class="slider__img" src="img/man_2.png" alt="powerup">
+ 					<div class="slider__slogan">Sii!</div>
+ 				</div>
+ 				<div class="slider__item">
+ 					<div class="slider__title" >Vuoi  <br> sedurre le donne?</div>
+ 					<div class="slider__img_wrap">
+ 						<img class="slider__img slider__img_special" src="img/couple1.png" alt="powerup">
+ 					</div>
+ 					<div class="slider__slogan">Seduci!</div>
+ 				</div>
+ 				<div class="slider__item">
+ 					<div class="slider__title">Vuoi “insecchirti”   <br> e dimagrire?</div>
+ 					<img class="slider__img" src="img/man_3.png" alt="powerup">
+ 					<div class="slider__slogan ">Con Power-Up Extra e` possibile!</div>
+ 				</div>
+ 			</div>
+		</section>
+		<section class="feedback_slider__block">
+			<span class="feedback_slider__txt">LE PERSONE REALI-RECENSIONI REALI</span>
+			<div class="slider2">
+ 				<div class="slider__item2">
+ 					<img class="slider__img2" src="img/sl_img1.png" alt="powerup">
+ 					<div class="slider__title2">Stefano 24 anni</div>
+ 					<div class="slider__descr2">"Ero magro come un chiodo 1.5 mesi fa. Ora capisco cosa sono forza e potenza , il corpo diventa sempre più muscoloso. Finalmente non mi vergogno più` di indossare la maglietta e in spiaggia invece le ragazze mi fanno l'occhiolino! "</div>
+ 				</div>
+ 				<div class="slider__item2">
+ 					<img class="slider__img2" src="img/sl_img2.png" alt="powerup">
+ 					<div class="slider__title2">Armando, 35 anni </div>
+ 					<div class="slider__descr2">"Ho provato un sacco di concentrati di proteine e finalmente ho trovato il meglio! Power-Up Extra è davvero magnifico, il prezzo è accettabile,il giusto apporto di  calorie, proteine, grassi e carboidrati , poco grasso e imballaggio e` conveniente. Sono contento dell'acquisto. Vi consiglio di prenderlo! "</div>
+ 				</div>
+ 				<div class="slider__item2">
+ 					<img class="slider__img2" src="img/sl_img3.png" alt="powerup">
+ 					<div class="slider__title2">Marco,52 anni</div>
+ 					<div class="slider__descr2">"Anche se in 50 anni è più difficile rimanere in forma, ma Power-Up Extra mi aiuta in questo. Lo bevo la mattina e la sera, mi sento di avere i 25! E di nuovo sento l'attenzione delle donne ".</div>
+ 				</div>
+ 				
+ 			</div>
+		</section>
+		<section class="description">
+			<span class="description__txt">Tre passi verso la strada della forza   <br> e della resistenza </span>
+			<div class="description__info">
+				<div class="descr__item flex">
+					<div class="descr_numb  orange_color">1</div>
+					<div class="descr_txt ">Compila il modulo sul sito</div>
+				</div>
+				<div class="descr__item flex">
+					<div class="descr_numb  orange_color">2</div>
+					<div class="descr_txt ">Ricevi e paghi l'ordine nell'ufficio postale o al corriere</div>
+				</div>
+				<div class="descr__item flex">
+					<div class="descr_numb  orange_color">3</div>
+					<div class="descr_txt ">Segui le istruzioni e ottieni un petto poderoso</div>
+				</div>
+
+			</div>
+		</section>
+		<footer class="footer">
+						<span class="header_txt1">Formula innovativa del cocktail di proteine </span>
+			<span class="header_txt2"><span class="blue_color">Power-Up</span> <span class="orange_color">Extra</span> la nuova strada verso i muscoli potenti e determinati </span>
+			<div class="header_product_wrap">
+				<img  class="header__img" src="img/header_product.png" alt="powerup">
+				<div class="header_price_wrap">
+					<div class="header_price_new al-cost">39€</div>
+					<div class="header_price_old al-cost-promo">78€</div>
+				</div>
+			</div>
+			<div class="order_fast">ORDINA AD UN PREZZO SPECIALE</div>
+			<div class="counter_wrap clearfix">
+				<div class="counter left">
+					 <div class="counter__section counter__section_first">0</div><span class="js-countdown"><span class="js-count-digit">2</span><span class="js-count-digit">0</span></span> 
+				</div>
+				<div class="counter_txt right">* ORDINA AD UN <br> <span class="txt_pad">  PREZZO SPECIALE</span></div>
+			</div>
+			<div class="form__block main_form mb0">
+				<div class="form_top-panel">
+					<div class="full_cost_wrap">
+						<span class="full_cost"> Prezzo normale<br> <span class="full_price al-cost-promo">78€</span></span>
+					</div>
+					<div class="off_cost_wrap">
+						<span class="off_cost"> Prezzo con lo sconto<br> <span class="off_price al-cost">39€</span></span>
+					</div>
+				</div>
+				<form action="/land/order" method="POST" class="main__form al-form bottom_form">
+					<select name="country" class="al-country" style="display: none;"></select>
+					<div style="position: relative; margin:15px 0;"  class="input-wrapper" >
+						<input type="text" name="name" id="name2" placeholder="Inserite il vostro nome">
+						<label for="name2" class="input_label"></label>
+					</div>
+					<div  class="input-wrapper">
+						<input type="phone" name="phone" id="phone2" placeholder="Inserite il numero di telefono">
+						<label for="phone2"></label>
+					</div>
+					<input class="btn" type="submit" value="ORDINA CON LO SCONTO">
+					<div class="secure">
+						<div class="secure__txt_wrap">
+							<span class="secure__txt">Le vostre informazioni non verranno trasmesse a terzi</span>
+						</div>
+						
+					</div>
+					<div class="secure_images clearfix">
+						<img  class="left" src="img/norton.png" alt="powerup">
+						<img  class="right" src="img/mcafee.png" alt="powerup">
+					</div>
+				</form>
+			</div>
+		</footer>
+	</div>
+	
+
+    <script src="libs/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/countdown.js"></script> 
+	<script type="text/javascript" src="libs/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/validator-label.js"></script> 
+	<script src="js/common.js"></script>
+</body>
+</html>
